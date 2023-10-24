@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.nav-item {
+  padding-top: 0.5rem !important;
+}
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+.homePage {
+  text-align: center;
+}
+.mind {
+  width: 48%;
+  padding-top: 25%;
+  margin: 0 auto;
+}
+
+.about {
+  width: 60%;
+  padding-top: 15%;
+  margin: 0 auto;
+}
+.mind h2 {
+  color: white;
+  font-size: 25px;
+  /* z-index: 1; */
+}
+.inner-div {
+  color: white;
+  text-align: center;
+
+  background-color: rgba(52, 152, 219, 0.5);
+  padding: 50px 10px;
+}
+.about-div {
+  color: white;
+  text-align: left;
+
+  background-color: rgba(52, 152, 219, 0.5);
+  padding: 30px 10px;
+}
+.about-div p {
+  color: white;
+  line-height: 1.5;
+  letter-spacing: 0.8;
+  font-size: 18px;
+}
+.cat {
+  border: 1px solid black;
+}
+.cat h2 {
+  /* width: 100%; */
+  padding: 5px 10px;
+  border-bottom: 1px solid grey;
+}
+.data {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.data ul {
+  padding-left: 0;
+}
+.data ul li {
+  list-style-type: none;
+  border-bottom: 1px solid grey;
+  padding: 5px 10px;
+}
+.taskData-component {
+  text-align: center;
+}
+
+.form-fields {
+  margin-bottom: 5px;
+  width: 350px;
+}
+.create-form {
+  width: 40%;
+  margin: 0 auto;
+}
+.taskData-component {
+  width: 50%;
+  margin: 15% auto;
+  border: 1px solid grey;
+  padding: 20px 60px;
+}
